@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "userId": "test",
+      "password": "rnfl824",
+      "name": "테스트",
+      "email": "test@fave.kr",
+      "id": 1
+    },
+    {
+      "userId": "cu7952",
+      "password": "12341234",
+      "name": "박규리",
+      "email": "fnffkdll@naver.com",
+      "id": 2
+    }
+  ]
+}

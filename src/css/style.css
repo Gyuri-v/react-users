@@ -1,0 +1,168 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: #222;
+}
+
+/* HTML5 display-role reset for older browsers */
+* {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1.2;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  font-size: 16px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background: #ce3b3b;
+}
+.container-title {
+  margin-bottom: 20px;
+  font-size: 3vw;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.contents {
+  width: 100%;
+  max-width: 1000px;
+  padding: 50px;
+  background: #fff;
+  border-radius: 30px;
+}
+.contents .btn-wrap {
+  margin-bottom: 20px;
+  text-align: right;
+}
+.contents .btn-wrap .btn {
+  margin: 0 2px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background: #ce3b3b;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+}
+.contents .list-wrap table {
+  width: 100%;
+  border-top: 2px solid #990009;
+  font-size: 15px;
+}
+.contents .list-wrap table tr {
+  border-bottom: 1px solid #ddd;
+}
+.contents .list-wrap table th {
+  padding: 10px;
+  text-align: center;
+  font-size: 1.1em;
+  background: #f5f5f5;
+}
+.contents .list-wrap table td {
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+}
+.contents .list-wrap table .btn-modify {
+  margin: 0 2px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background: #ce3b3b;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+}
+.contents .list-wrap table .btn-del {
+  margin: 0 2px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background: #999;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+}
+.contents-userform {
+  max-width: 500px;
+}
+.contents-userform li {
+  margin-bottom: 15px;
+}
+.contents-userform input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.contents-userform button {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  padding: 15px 10px;
+  border: none;
+  background: #ce3b3b;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  transition: all 0.3s;
+}
+.contents-userform button:hover {
+  background: #990009;
+}
+
+/*# sourceMappingURL=style.css.map */
