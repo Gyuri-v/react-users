@@ -1,18 +1,25 @@
 {
   "users": [
     {
-      "userId": "test",
-      "password": "rnfl824",
-      "name": "테스트",
-      "email": "test@fave.kr",
+      "userid": "cu1111222",
+      "password": "12341234",
+      "name": "박규리",
+      "email": "cu@fave.kr",
       "id": 1
     },
     {
-      "userId": "cu7952",
+      "name": "김김김",
+      "userid": "kim",
       "password": "12341234",
-      "name": "박규리",
-      "email": "fnffkdll@naver.com",
+      "email": "kim@fave.kr",
       "id": 2
+    },
+    {
+      "userid": "test",
+      "password": "12341234",
+      "name": "테스트",
+      "email": "test@fave.kr",
+      "id": 3
     }
   ]
 }

@@ -6,31 +6,14 @@ function UserList() {
   const [users, setUsers] = useState([]);
 
   const getUsers = async () => {
-    fetch(`http://localhost:3001/users`)
-      .then((response) => {
-        console.log('getUser');
-        return response.json();
-      })
-      .then((data) => {
-        setUsers(data);
-      });
+    const json = await (await fetch(`http://localhost:3001/users`)).json();
+    setUsers(json);
   };
 
-  const onRemove = function (uid) {
-    fetch(`http://localhost:3001/users/${uid}`, { method: 'delete' })
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => {
-        fetch(`http://localhost:3001/users`)
-          .then((response) => {
-            console.log('getUser');
-            return response.json();
-          })
-          .then((data) => {
-            console.log(data);
-          });
-      });
+  const onRemove = (uid) => {
+    fetch(`http://localhost:3001/users/${uid}`, {
+      method: 'DELETE',
+    }).then((res) => (res.ok ? alert('삭제 완료') : null));
   };
 
   useEffect(() => {

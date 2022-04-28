@@ -22,7 +22,7 @@ function UserForm() {
         }
       })
       .then((data) => {
-        setCurrentUserId(data[0].userId);
+        setCurrentUserId(data[0].userid);
         setCurrentUserPassword(data[0].password);
         setCurrentUserName(data[0].name);
         setCurrentUserEmail(data[0].email);
@@ -56,7 +56,7 @@ function UserForm() {
         'Content-type': 'application/json',
       },
       body: JSON.stringify({
-        userId: userId.current.value,
+        userid: userId.current.value,
         password: userPassword.current.value,
         name: userName.current.value,
         email: userEmail.current.value,
@@ -78,7 +78,7 @@ function UserForm() {
         'Content-type': 'application/json',
       },
       body: JSON.stringify({
-        userId: userId.current.value,
+        userid: userId.current.value,
         password: userPassword.current.value,
         name: userName.current.value,
         email: userEmail.current.value,
